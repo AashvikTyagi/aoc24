@@ -7,4 +7,4 @@ lsorted, rsorted = [sorted(s) for s in (l,r)]
 s1 = sum([abs(lsorted[n]-rsorted[n]) for n in range(len(lsorted))])
 s2 = sum([el*r.count(el) for el in l])
 
-print(s1,s2)
+print(s1, s2)

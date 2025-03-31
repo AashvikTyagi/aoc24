@@ -18,4 +18,4 @@ s2 = sum([
     and col-1 in range(len(inp[0])) and col+1 in range(len(inp[0]))
 ])
 
-print(s1,s2)
+print(s1, s2)

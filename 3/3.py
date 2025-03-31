@@ -13,4 +13,4 @@ for match in finditer(r'mul\((\d+),(\d+)\)|do\(\)|don\'t\(\)', inp):
         m1, m2 = map(int, findall(r'\d+', inst))
         s2 += m1*m2
 
-print(s1,s2)
+print(s1, s2)
